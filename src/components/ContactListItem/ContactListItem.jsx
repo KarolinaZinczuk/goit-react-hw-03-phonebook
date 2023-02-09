@@ -4,7 +4,7 @@ import styles from "./ContactListItem.module.css";
 
 class ContactListItem extends Component {
     render() {
-        const { name, number, handleRemove } = this.props;
+        const { id, name, number, handleRemove } = this.props;
         return (
             <li className={styles.item}>
                 {name}: {number}
